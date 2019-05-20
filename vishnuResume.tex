@@ -1,0 +1,201 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj; MOdified by Vishnu Easwaran E for personal use.
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.475in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.3in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/vishnueaswaran/}{\Large Vishnu Easwaran E}} & Email : \href{mailto:easwaranvishnu@gmail.com}{easwaranvishnu@gmail.com}\\
+  \href{https://github.com/vishnueaswaran}{https://github.com/vishnueaswaran} & Mobile : +91-xxxxxxxxxx \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Sree Chitra Thirunal College of Engineering; University of Kerala}{Kerala, India}
+      {Bachelor of Technology in Electronics and Communication}{Aug. 2010 -- April 2014}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    
+    \resumeSubheading
+      {Free/Libre and Open Source Software for Education--- FOSSEE, IIT Bombay}{Mumbai, India}
+      {Research Associate}{July 2017 - Present}
+      
+      \resumeItemListStart
+        \resumeItem{OpenPLC}
+          {Development of IEC61131-3 and IEC61499 standard PLCs for educational purposes.}
+          
+          \resumeItemListStart
+	          \resumeItem{Hardware/Electronics Design}
+              {PCB design, layout, prototyping and testing. Designed power management, communication, ADC and interfacing elements.}
+            \resumeItem{Embedded Software/Firmware}
+	            {Developed Firmware for 8-bit controllers and application software and scripts for Linux running in single board computers.}
+            \resumeItem{System Design}
+              {Logical design, Physical design, Architectural design, and analysis of PLC system complying with the IEC 61131-3 \& 61499 standards.}
+	        \resumeItemListEnd
+        
+          \resumeItem{Documentation}
+            {Managed the creation of tutorials for OpenPLC and its sister hardware projects, in the SpokenTutorial platform of Government of India.}
+          \resumeItem{Teachers Training}
+            {Lead a team of 6 in conducting technical workshops on behalf of FOSSEE, for factuality and students, in engineering and polytechnic colleges.}
+          \resumeItem{Mentor}
+            {Identification, selection and mentoring of FOSSEE summer fellows from all over India.}
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {FabLab Kerala--- KSUM, Govt. of Kerala.}{Kerala, India}
+      {Technical Associate}{December 2016 - July 2017}
+
+      \resumeItemListStart
+        \resumeItem{Technical Associate}
+          {Technical associate to artists of Kochi Muziris Biennale on behalf of KSUM.}
+        \resumeItem{Fab Academy Instructor}
+          {Course instructor and evaluator at Trivandrum Fab Lab for the batch of 2017.} 
+        \resumeItem{Mini-FabLabs}
+          {Setup mini-fablabs in association with Fab Foundation, across the state.}
+      \resumeItemListEnd      
+
+    \resumeSubheading
+      {Kerala Startup Mission--- KSUM, Govt. of Kerala.}{Kerala, India}
+      {Technology Innovation Fellow}{June 2015 - June 2016}
+
+      \resumeItemListStart
+        \resumeItem{Fab Lab}
+          {Setup Fab Labs in Trivandrum and Kochi. Developed and mentored research projects at Fab Labs.}
+        \resumeItem{Technical Consultant}
+          {Rapid prototyping consultant at Fab Lab for start-ups, engineering colleges, NGOs etc.} 
+        \resumeItem{State Policy Agent}
+          {Implementation and monitoring of entrepreneurship development programs of Kerala State government's startup policy.}
+      \resumeItemListEnd
+    
+    \resumeSubheading
+      {Sahridhaya--- NGO}{Kerala, India}
+      {Trustee}{June 2012 - Present}
+
+      \resumeItemListStart
+        \resumeItem{Head of R\&D}
+          {Developed various educational tools and programs for teaching STEM among school students. Organized and volunteered for numerous social activities in the state, latest during the devastating Kerala floods.}
+      \resumeItemListEnd  
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{PROTON}
+      {An Arduino based development board with a battery of on-board sensors and actuators bundled with provisions for multiple communication technologies.}
+    \resumeSubItem{CoW-Net}
+      {A research project that deployed an open-wireless network in a Panchayat connecting the local populace with modern tech-enabled services like instant messaging, geo-tagging, educational content portals etc.}
+    \resumeSubItem{S\textsuperscript{2} - Smart Switch}
+      {An IOT enabled power-switch which can be controlled over internet.}
+    \resumeSubItem{Hypothermia detector}
+      {A functional prototype, with a system made of an Attiny 45 and an NTC thermostat.}
+    \resumeSubItem{Mind Controlled Wheelchair}
+      {Proof-of-concept of an EEG controlled wheelchair for individuals with limited motor abilities.}
+  \resumeSubHeadingListEnd
+
+% --------CERTIFICATES & REWARDS------------
+\section{Certificates and Awards}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Management Development Program}{IIM Kozhikode - 2016}
+    \resumeSubItem{Fab Academy Diploma in Digital Fabrication}{Fab Foundation - 2016}
+    \resumeSubItem{Manorama Yuva Master Mind}{Malayala Manorama - 2012}
+  \resumeSubHeadingListEnd
+
+% --------PUBLICATIONS------------
+\section{Publications}
+  \resumeSubHeadingListStart
+    \resumeSubItem{``Programmable Logic Controller: Open Source
+Hardware and Software for Massive Training" at IECON'18}{2018}
+  \resumeSubHeadingListEnd
+
+
+% --------PROGRAMMING SKILLS------------
+\section{Design and Engineering Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Languages}{: Embedded C, Arduino, C++, Python}
+     \hfill
+     \textbf{Technologies}{: EDA, ARM, GIT, Linux, Digital Fabrication}
+   }
+ \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
